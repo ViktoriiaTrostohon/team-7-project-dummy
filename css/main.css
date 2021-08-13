@@ -1,0 +1,99 @@
+/* .winking-face {
+  stroke: none;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* .video-settings {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/hero/phone/hero.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .video-settings {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-phone@2x.jpg);
+  }
+} */
+
+.video {
+  max-width: 767px;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-settings {
+  width: 100%;
+
+  border-radius: 15px;
+}
+
+.contact-hero-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+/* IT WILL ALIGN ACCORDING TO CONTAINER */
+.contact-hero-text {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+}
+/* NO NEED TO CENTER IT ON MOBILE */
+
+/* .contact-hero-text-icon {
+  /* display: inline-flex; */
+/* align-items: center; */
+/* } */
+
+.contact-hero-text-icon {
+  display: flex;
+}
+
+.contact-hero-text-icon::after {
+  content: " ";
+  display: inline-block;
+  /* color: transparent; */
+  background: url(../images/contact-emoji/phone/emoji@2x.jpg);
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  margin-left: 6px;
+}
+
+.contact-hero-icon {
+  width: 22px;
+  height: 22px;
+  margin-left: 4px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .video {
+    /* text-align: center; */
+    margin-bottom: 16px;
+  }
+
+  /* .video-settings {
+    width: 100%;
+    max-width: 280px;
+    height: 171px;
+  } */
+
+  .contact-hero-text {
+    text-align: left;
+  }
+}
