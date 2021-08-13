@@ -20,17 +20,6 @@
           <h1 class="contact-hero-title">Контакти</h1>
           <div class="contact-hero-content">
             <div class="video-player">
-              <!-- <iframe
-                class="video-settings"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/aubLuCFIejc"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe> -->
-
               <video class="video" poster="./images/hero/phone/hero@2x.jpg">
                 <source
                   src="./videos/3d-print-timelapse.mp4"
@@ -47,6 +36,20 @@
               </video>
               <div class="player-controls">
                 <button class="play-button" title="Play">▶</button>
+
+                <input
+                  type="range"
+                  class="volume"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="1"
+                />
+
+                <div class="time">
+                  <span class="current">0:00</span> /
+                  <span class="duration">0:00</span>
+                </div>
               </div>
             </div>
             <p class="contact-hero-text">
