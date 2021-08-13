@@ -46,11 +46,11 @@ h6 {
   width: 30px;
   height: 30px;
   border-color: transparent;
-  font-size: medium;
+  font-size: large;
   line-height: 0;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
-  color: blue;
+  color: #487996;
 }
 
 /* .play-button:focus {
