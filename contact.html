@@ -19,7 +19,7 @@
         <div class="container">
           <h1 class="contact-hero-title">Контакти</h1>
           <div class="contact-hero-content">
-            <div class="video">
+            <div class="video-player">
               <!-- <iframe
                 class="video-settings"
                 width="560"
@@ -31,10 +31,7 @@
                 allowfullscreen
               ></iframe> -->
 
-              <video
-                class="video-settings"
-                poster="./images/hero/phone/hero@2x.jpg"
-              >
+              <video class="video" poster="./images/hero/phone/hero@2x.jpg">
                 <source
                   src="./videos/3d-print-timelapse.mp4"
                   type="video/mp4"
@@ -49,11 +46,7 @@
                 />
               </video>
               <div class="player-controls">
-                <button class="play-button" title="Play">
-                  <svg>
-                    <use></use>
-                  </svg>
-                </button>
+                <button class="play-button" title="Play">▶</button>
               </div>
             </div>
             <p class="contact-hero-text">
@@ -128,5 +121,6 @@
       </section>
     </main>
     <footer></footer>
+    <script src="./js/video.js"></script>
   </body>
 </html>
